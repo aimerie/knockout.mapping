@@ -3,6 +3,8 @@
   "version": "2.6.0",
   "description": "Knockout Mapping plugin",
   "main": "dist/knockout.mapping.js",
+  "types": "./knockout.mapping.d.ts",
+  "type": "module",
   "files": [
     "dist",
     "HISTORY.md"
@@ -19,22 +21,22 @@
     "ko"
   ],
   "peerDependencies": {
-    "knockout": ">=2.2.0"
+    "knockout": "3.5.1"
   },
   "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-header": "^2.0.5",
-    "gulp-if": "^2.0.2",
-    "gulp-jshint": "^2.1.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-qunit": "^2.0.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "jshint": "^2.9.6",
-    "jshint-stylish": "^2.2.1"
+    "del": "7.1.0",
+    "gulp": "5.0.0",
+    "gulp-header": "2.0.9",
+    "gulp-if": "3.0.0",
+    "gulp-jshint": "2.1.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-qunit": "3.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-replace": "1.1.4",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-uglify": "3.0.2",
+    "jshint": "2.13.6",
+    "jshint-stylish": "2.2.1"
   },
   "scripts": {
     "test": "gulp test"
